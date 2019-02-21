@@ -1,0 +1,96 @@
+
+@import url('https://fonts.googleapis.com/css?family=Reem+Kufi');
+
+
+.card-body {
+    text-align: center;
+    height: 260px !important;
+}
+.card {
+    float: left;
+    margin-left:30px;
+}
+#delete {
+    margin-left:350px;
+}
+#edit {
+    margin-left:350px;
+}
+#add {
+    margin-left:350px;
+}
+.adminNav {
+    color:black;
+    margin-left:20px;
+    font-family: 'Reem Kufi', sans-serif;
+    font-size:20px;
+}
+.adminNav:hover {
+    text-decoration: none;
+    color:black;
+}
+.welcome h6{
+    margin-top:10px;
+    float:right;
+    margin-right:5px;
+}
+.welcome a {
+    color:black;
+    margin-left:5px;
+}
+.welcome a:hover {
+    text-decoration: none;
+    color:black;
+}
+.welcome {
+    height:40px;
+    background-color:#f6f7f7;
+}
+.navbar.navbar-expand-lg.navbar-light.bg-light {
+    background-color:white !important;
+}
+.navbar.navbar-expand-lg.navbar-light.bg-light img {
+    margin-top:20px;
+}
+.logo {
+    margin-left:110px;
+}
+.AdminList {
+    width:1000px;
+    margin:0 auto;
+}
+.AdminList h3 {
+    margin-top:50px;
+    text-align: center;
+}
+.admin {
+    margin-left: 130px;
+    margin-top:50px;
+}
+label { 
+    margin-left:10px;
+    font-family: 'Reem Kufi', sans-serif;
+}
+input {
+    border-radius: 20px !important;
+    border-style:solid;
+    border-width: thin;
+    width:170px;
+    padding-left:5px;
+}
+.btn.btn-info {
+    border-radius: 60px;
+    width:100px;
+    height:28px;
+}
+.btn {
+    padding:0px !important;
+} 
+h3, h5 {
+    font-family: 'Reem Kufi', sans-serif;
+}
+.body {
+    margin-top:300px;
+    height:1000px;
+    background-image: linear-gradient( white, #dededb);
+}

@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css?family=Reem+Kufi');
+.weather {
+    text-align: center;
+}
+.boxes {
+    margin-top:30px;
+    margin-left:300px;
+}
+.box {
+    float:left;
+    margin-left:20px;
+    width:200px;
+    text-align: center;
+    height:220px;
+}
+.box:nth-child(1) {
+    background-image: linear-gradient( #b9c8e0, #6b85b6);
+}
+.box:nth-child(2) {
+    background-image: linear-gradient( #dededb, grey);
+}
+.box:nth-child(3) {
+    background-image: linear-gradient( #fef0eb, #ade0f9);
+}
+svg {
+    width:100px;
+    height:100px;
+}
+.cloud {
+    color:#686b70;
+}
+.snow {
+    color:white;
+}
+.sun {
+    color:yellow;
+}
+.card-body {
+    text-align: center;
+    height: 260px !important;
+}
+.card {
+    float: left;
+    margin-left:30px;
+}
+.nav {
+    color:black;
+    margin-left:20px;
+    font-family: 'Reem Kufi', sans-serif;
+    font-size:30px;
+}
+.nav:hover {
+    text-decoration: none;
+    color:black;
+}
+.welcome h6{
+    margin-top:10px;
+    float:right;
+    margin-right:5px;
+}
+.welcome a {
+    color:black;
+    margin-left:5px;
+}
+.welcome a:hover {
+    text-decoration: none;
+    color:black;
+}
+.welcome {
+    height:40px;
+    background-color:#f6f7f7;
+}
+.navbar.navbar-expand-lg.navbar-light.bg-light {
+    background-color:white !important;
+}
+.navbar.navbar-expand-lg.navbar-light.bg-light img {
+    margin-top:20px;
+}
+.logoC {
+    margin-left:180px;
+}
+.productList {
+    width:1000px;
+    background-image: linear-gradient( white, #dededb);
+    position: absolute;
+    top:500px;
+    left:150px;
+}
+.productList h3 {
+    text-align: center;
+}
+.filter {
+    margin-left: 130px;
+    margin-top:50px;
+}
+.filter label { 
+    margin-left:10px;
+    float:left;
+    font-family: 'Reem Kufi', sans-serif;
+}
+input {
+    border-radius: 15px ;
+    border-style:solid;
+    border-width: thin;
+    width:170px;
+    padding-left:5px;
+}
+.btn.btn-info {
+    border-radius: 60px;
+    width:100px;
+    height:28px;
+}
+.btn {
+    padding:0px !important;
+} 
+h3, h5 {
+    font-family: 'Reem Kufi', sans-serif;
+}
+.nav:nth-child(2) {
+    margin-left:50px;
+}
+.welcomePage {
+    margin-top:50px;
+    text-align: center;
+}
